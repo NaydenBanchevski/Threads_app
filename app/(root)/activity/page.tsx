@@ -15,7 +15,7 @@ async function Page() {
   const activity = await getActivity(userInfo._id);
 
   return (
-    <section className="mt-10 flex flex-col gap-5">
+    <section className="mt-10 flex flex-col gap-5 overflow-hidden">
       {activity.length > 0 ? (
         <>
           {activity.map((activity) => (

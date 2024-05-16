@@ -22,7 +22,10 @@ export default function RootLayout({
 }>) {
   return (
     <ClerkProvider>
-      <html lang="en" className=" bg-black no-scrollbar overflow-y-scroll">
+      <html
+        lang="en"
+        className="bg-black no-scrollbar overflow-y-scroll overflow-x-hidden"
+      >
         <body className={inter.className}>
           <Topbar />
           <main className="flex flex-row ">

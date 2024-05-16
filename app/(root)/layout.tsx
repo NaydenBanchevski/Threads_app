@@ -22,9 +22,9 @@ export default function RootLayout({
 }>) {
   return (
     <ClerkProvider>
-      <html lang="en">
+      <html lang="en" className="bg-black">
         <body
-          className={`${inter.className} className="bg-black no-scrollbar overflow-y-scroll overflow-x-hidden"`}
+          className={`${inter.className} no-scrollbar overflow-y-scroll overflow-x-hidden`}
         >
           <Topbar />
           <main className="flex flex-row ">
